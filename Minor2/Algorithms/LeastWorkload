@@ -1,0 +1,30 @@
+least_Workload(sequence_of_tasks, Parameters_for_tasks)
+{
+    // holds the capacity of edgenode
+    ArrayList<Integer []> maxCapacity    
+
+    //push the capacity of each edgenode and which edgenoe it is
+    maxCapacity.add(newInteger[]{ node capacity, which Edge})
+
+    for(i=1 -> number of taks in sequence list)
+    {
+        //Sort the maxCapacity list and find the edge node which has maximum capacity
+        Collection.sort(maxCapacity)
+
+        if(task_to_be_performed==1,2,3,4)
+        {
+            if(maxCapacity.last_element.capacity >= Task_capacity)
+            {
+                //evaluate task at edge node mentioned in maxCapacity
+                evaluateTask();
+                edgenode_capacity= edgenode_capacity - Task_capacity
+            }
+            else{
+                //evaluate task at data center
+                evaluateTask();
+                DataCenter_capacity= DataCenter_capacity - Task_capacity
+            }
+        }
+    }
+
+}

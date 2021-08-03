@@ -1,0 +1,23 @@
+1. Round Robin Algorithm Drawbacks
+    Choose a pattern that gives 4th task to data centre and thus shows that round robin has problem of overloading the server
+
+2. Least connection should not go to data centre
+
+3. Implement Task capacity on the basis of line of code
+
+4. Least connection: We are checking all three edge nodes at once therefore we know that we cant send the task to any other edge nodes 
+
+
+PROBLEMS:
+1. THE ERROR MESSAGE IN LEAST WORKLOAD i.e THE COUNTER IN LEAST WORKLOAD.
+
+
+PROBLEMS:
+
+
+3. Clear i/p terminal 
+4. 
+
+
+
+

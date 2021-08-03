@@ -1,0 +1,43 @@
+round_robin(sequence_tasks, parameters_tasks){
+
+    //A counter to hold information about next Edge node 
+    int next_edge;
+
+    for(i<Size of Sequence Tasks List){
+        if(task_to_be_performed==1,2,3,4){
+            
+            Print(Calculating that task)
+
+            if(next_edge==1,2,3){
+                
+                if(capacity_edge_node>=load of task_to_be_performed){
+
+                    print(Calculating the tast at this edge node)
+
+                    // Call the evaluate function of next_edge passing task no. and Its parameters List
+                    next_edge.evaluate(task, parameter_list_for_that_task)
+
+                    //Remove the element from the parameters list as it has been used
+                    update(parameter_list_for_that_task)
+
+                    //Subtract the load of the task_to_be_performed in the capacity_edge_node
+                    update(capacity_edge_node)
+                }
+
+                else(){
+
+                    //Call the evaluate function of data_center passing task no. and Its parameters List
+                    data_center.evaluate(task, parameter_list_for_that_task)
+
+                    //Subtract the load of the task_to_be_performed in the capacity_data_center
+                    update(capacity_data_center)
+                }
+            
+            }
+        }
+    }
+    
+    //Update the capacity of all the edge nodes and data centers to original
+    Update(capacity_edge_node,capacity_data_center);
+
+}
